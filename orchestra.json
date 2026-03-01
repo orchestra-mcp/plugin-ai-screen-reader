@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-ai-screen-reader",
+    "description": "ai-screen-reader tools plugin for Orchestra MCP.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-ai-screen-reader/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-ai-screen-reader"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "ai-screen-reader",
+    "extra": {
+        "plugin-id": "tools.ai-screen-reader",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
